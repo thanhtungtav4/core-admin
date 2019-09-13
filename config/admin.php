@@ -401,5 +401,13 @@ return [
             // Select a local disk that you configured in `config/filesystem.php`
             'disk' => 'public'
         ],
+
+        'auth-attempts' => [
+            // set to false if you want to disable this extension
+             'enable' => true,
+            // configuration
+             'maxAttempts'  => 5,
+            'decayMinutes' => 1,
+        ]
     ],
 ];

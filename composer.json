@@ -14,9 +14,11 @@
         "laravel-admin-ext/backup": "^1.0",
         "laravel-admin-ext/config": "^1.0",
         "laravel-admin-ext/media-manager": "^1.0",
+        "laravel-admin-ext/messages": "@dev",
         "laravel-admin-ext/scheduling": "^1.0",
         "laravel/framework": "5.8.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "manzhouya/auth-attempts": "^1.2"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
